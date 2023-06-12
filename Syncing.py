@@ -3,8 +3,8 @@ import os
 import shutil
 import hashlib
 
-source_folder = r'C:\Users\hp\Desktop\Source'
-destination_folder = r'C:\Users\hp\Desktop\Target'
+source_folder = r'E:\practice\Source'
+destination_folder = r'E:\practice\Target'
 
 def calculate_checksum(file_path):
     with open(file_path, 'rb') as f:
